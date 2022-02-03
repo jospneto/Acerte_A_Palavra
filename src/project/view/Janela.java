@@ -17,7 +17,7 @@ public class Janela extends JFrame{
 
         Jogo jogo = new Jogo();
 
-        labelPalavra = new JLabel(jogo.embaralhar());
+        labelPalavra = new JLabel(jogo.embaralhar().toUpperCase());
         add(labelPalavra);
 
         labelTexto1 = new JLabel("Que palavra é essa?");
@@ -51,7 +51,7 @@ public class Janela extends JFrame{
                 new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
-                        labelPalavra.setText(jogo.embaralhar());
+                        labelPalavra.setText(jogo.embaralhar().toUpperCase());
                     }
                 }
         );
