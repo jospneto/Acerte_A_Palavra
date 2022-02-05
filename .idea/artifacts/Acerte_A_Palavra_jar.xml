@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Acerte_A_Palavra:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Acerte_A_Palavra_jar</output-path>
+    <root id="archive" name="Acerte_A_Palavra.jar">
+      <element id="module-output" name="Acerte_A_Palavra" />
+    </root>
+  </artifact>
+</component>

@@ -1,5 +1,7 @@
 package project.model;
 
+import project.controller.ConexaoBancoDados;
+
 import java.util.*;
 
 public class Jogo {
